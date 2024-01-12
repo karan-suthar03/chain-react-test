@@ -11,5 +11,5 @@ const firebaseConfig = {
 
 const app = firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
-const game = database.ref('555');
+const game = database.ref('123');
 console.log(game);
